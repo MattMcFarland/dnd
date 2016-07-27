@@ -10,7 +10,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "budo client.js -p 8080 --open --live -- -t sheetify/transform",
+    "start": "budo --host localhost client.js -p 8080 --open --live -- -t sheetify/transform",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
