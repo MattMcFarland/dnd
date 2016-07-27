@@ -1,0 +1,14 @@
+body{
+  background: white;
+}
+
+.dnd {
+  border: dashed 1px #d7d7d7;
+  height: 100px;
+  width: 100px;
+}
+
+.dnd-over {
+  height: 500px;
+  width: 500px;
+}
